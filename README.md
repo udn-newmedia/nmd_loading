@@ -5,7 +5,7 @@ version: v1.0
 ```
 
 ## Usage
-在<body></body>裡加入
+在<body>裡加入
 ```html=
 <body>
   <script src=".../nmd-loading.min.js"></script>
