@@ -1,7 +1,7 @@
 {
   "name": "nmd_page_loading",
   "version": "1.0.0",
-  "description": "Loading animation for udn-newmedia projects.",
+  "description": "⏳ Javascript lib for udn-newmedia project loading animation.",
   "main": "index.js",
   "scripts": {
     "build": "webpack"
