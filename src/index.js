@@ -1,7 +1,7 @@
 import './style.css';
 
 (function() {
-  function handleLoagin() {
+  function handleLoading() {
     const loadingContainer = document.createElement('div');
     loadingContainer.id = 'init-loading-container';
     loadingContainer.className = 'init-loading__container';
@@ -43,9 +43,9 @@ import './style.css';
     // console.log('complete');
   }
 
-  handleLoagin();
+  handleLoading();
   document.onreadystatechange = () => {
-    // if (document.readyState === 'loading') handleLoagin();
+    // if (document.readyState === 'loading') handleLoading();
     if (document.readyState === 'interactive') handeInteractive();
     if (document.readyState === 'complete') handeComplete();
   }
